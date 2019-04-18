@@ -1,6 +1,6 @@
 # admtarget [en]
 ### [initially made to ban name-changing hackers]
-This plugin lets admins manage a player they're currently spectating.
+This plugin lets admins manage a player they're currently spectating, with command **/tar** or **/target**
 You can set a list of predefined commands in /configs/admtarget.ini, for example: 
 
 "Slap a player!" "sm_slap TARGET 0"
