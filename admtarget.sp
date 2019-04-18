@@ -1,5 +1,4 @@
 #include <sourcemod>
-#include <adminmenu>
 
 #pragma semicolon 1
 #pragma newdecls required
