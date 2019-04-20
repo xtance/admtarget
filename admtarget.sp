@@ -30,8 +30,8 @@ public void OnPluginStart() {
 		kv.SetString("Опознать", "sm_who TARGET");
 		kv.SetString("Шлёпнуть", "sm_slap TARGET 0");
 		kv.SetString("Убить", "sm_slay TARGET");
-		kv.SetString("Забанить (навсегда)", "sm_ban TARGET 0 \"Бан просто так\" ");
-		kv.SetString("Кикнуть", "sm_kick TARGET \"Кик просто так\" ");
+		kv.SetString("Забанить (навсегда)", "sm_ban TARGET 0 'Бан просто так' ");
+		kv.SetString("Кикнуть", "sm_kick TARGET 'Кик просто так' ");
 		kv.Rewind();
 		kv.ExportToFile(szKV);
 	}
